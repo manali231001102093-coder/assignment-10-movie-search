@@ -1,0 +1,76 @@
+Vercel CLI 59.20.0 (Node.js 20.17.0)
+Loading teams…
+
+  Directory       /media/deepdp/New Volume/Assingment/Saikat/assignment-10-movie-search
+
+Searching for existing projects…
+
+  Detected Vite (Build Command: vite build, Output Directory: dist)
+
+✓ Created         assingment1/assignment-10-movie-search
+> Connecting GitHub repository: https://github.com/saikatclgassigment2026-coder/assignment-10-movie-search
+Error: Failed to link saikatclgassigment2026-coder/assignment-10-movie-search. You need to add a Login Connection to your GitHub account first. (400)
+Visit https://vercel.com/docs/accounts/create-an-account#login-methods-and-connections for more information.
+Deploying assingment1/assignment-10-movie-search
+Uploading [--------------------] (0.0B/7.1KB)
+Uploading [========------------] (2.9KB/7.1KB)
+Uploading [====================] (7.1KB/7.1KB)
+  Inspect         https://vercel.com/assingment1/assignment-10-movie-search/CwTspEAW1xnREcTn9AgNTEmBNyZk
+  Production      https://assignment-10-movie-search-k5xix42or-assingment1.vercel.app
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 30 deployment files...
+Running "vercel build"
+Vercel CLI 59.23.2
+Installing dependencies...
+added 25 packages in 4s
+9 packages are looking for funding
+run `npm fund` for details
+Running "npm run build"
+> assignment-10-movie-search@0.0.0 build
+> vite build
+vite v8.3.0 building client environment for production...
+transforming...
+✓ 1872 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   2.30 kB │ gzip:  0.90 kB
+dist/assets/index-BefpvDeQ.css    6.15 kB │ gzip:  1.97 kB
+dist/assets/index-DB09YL5i.js   227.14 kB │ gzip: 71.48 kB
+✓ built in 628ms
+[2K[1A[2K[G  Production      https://assignment-10-movie-search-k5xix42or-assingment1.vercel.app
+Completing…
+▲ Aliased         https://assignment-10-movie-search-sigma.vercel.app
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_CwTspEAW1xnREcTn9AgNTEmBNyZk",
+    "url": "https://assignment-10-movie-search-k5xix42or-assingment1.vercel.app",
+    "inspectorUrl": "https://vercel.com/assingment1/assignment-10-movie-search/CwTspEAW1xnREcTn9AgNTEmBNyZk",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_CwTspEAW1xnREcTn9AgNTEmBNyZk"
+  },
+  "message": "Deployment assignment-10-movie-search-k5xix42or-assingment1.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel git connect",
+      "when": "Automatically deploy changes on every push"
+    },
+    {
+      "command": "vercel curl https://assignment-10-movie-search-k5xix42or-assingment1.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect assignment-10-movie-search-k5xix42or-assingment1.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}
